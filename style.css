@@ -13,6 +13,7 @@ body {
   align-items: center;
   justify-content: center;
   text-align: center;
+  line-height: 2.5rem;
 }
 
 button {
@@ -28,7 +29,11 @@ button {
 }
 
 button:hover {
-  /* background-color: #005cbe; */
   scale: 1.05;
   filter: drop-shadow(0 0 15px #cdfff8cc);
+}
+
+#now-playing {
+  opacity: 0;
+  color: cyan;
 }
